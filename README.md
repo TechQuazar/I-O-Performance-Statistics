@@ -1,4 +1,4 @@
-*Some results are obtained manually and hence can not be put in the script. Therefore, script.sh will compile all files and 
+\*Some results are obtained manually and hence can not be put in the script. Therefore, script.sh will compile all files and
 give instructions on how to run them. More detailed instructions to replicate everything are given below.
 
 1. Please ensure you have root access before running the files
@@ -13,8 +13,8 @@ give instructions on how to run them. More detailed instructions to replicate ev
 10. For Part 4, generate the executable using: g++ -O3 caching.cpp -o caching
 11. To generate all the results at once (all block_sizes have been coded already), run: ./caching <filename>
 12. For Part 5, four executables need to be generated - syscall_normal, syscall_lseek, syscall_pid, syscall_hostid
-13. Generate the executables using: g++ -O3 syscall_<name>.cpp -o syscall_<name>
-14. Run the executables using (everything else has been coded): ./syscall_<name> <filename>
+13. Generate the executables using: g++ -O3 syscall*<name>.cpp -o syscall*<name>
+14. Run the executables using (everything else has been coded): ./syscall\_<name> <filename>
 15. For Part 6, generate the executables using: g++ -O3 -pthread fast.cpp -o fast
 16. To get the XOR value (with optimal settings): ./fast <filename>
 17. To reproduce report results, uncomment line 69 and comment line 70, compile and run again.
